@@ -10,7 +10,8 @@
     "setup": "cd Server && npm install && cd ../Calling && npm install && cd ..",
     "start": "cd Calling && npm run start && cd ..",
     "build": "cd Server && npm run build && cd ../Calling && npm run build && cd ..",
-    "package": "cd Calling && npm run package && cd .."
+    "package": "cd Calling && npm run package && cd ..",
+    "rimraf": "./node_modules/rimraf/bin.js",
   },
   "repository": {
     "type": "git",
