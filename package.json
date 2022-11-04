@@ -1,6 +1,9 @@
 {
   "name": "communication-services-web-calling-hero",
   "version": "1.0.0",
+  "engines":{
+    "node":"16.13.0"
+    },
   "description": "--- page_type: sample languages: - javascript - nodejs - products: - azure - azure-communication-services ---",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
